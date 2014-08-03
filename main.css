@@ -1,61 +1,70 @@
 /*  Base  */
 body {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 960px;
+	margin: 0;
 	height: 100%;
+	vertical-align: top;
+	text-align: center;
 	background-color: #fff;
 }
 
-main {
-	font-size: 0;
-	height: 100%;													
-}
-
 p {
-	font: Georgia, Times, serif;
+	font-family: Georgia, Times, serif;
 	font-size: 16px;
 	color: #333;
+	text-align: left;
+
 }
 
 a {
-	font: Verdana, Tahoma, sans-serif;
+	font-family: Verdana, Tahoma, sans-serif;
 	color: #f30;
 	text-decoration: none;
 }
 
 /*  Header  */
 header {
-	font-size: 16px;
-	width: 100%;
-	text-align: center;
+	margin: 2em auto;
+	width: 90%;
+	max-width: 640px;
 }
 
 .logo {
-	width: 100px;
-	height: 100px;
-	fill: #333;
+	max-width: 100px;
+	max-height: 100px;
 }
 
 header ul {
-	font-size: 1.25em;
-}
+	font-size: 18px;
+	padding: 0; 	
+}	
 
 header li {
 	display: inline-block;
+	padding: .5em;
+}
+/*  Main  */
+main {
+	margin: 2em auto;
+	width: 90%;
+	max-width: 640px;
+	font-size: 0;
 }
 
-/*  Main  */
 h1 {
-	font: Verdana, Tahoma, sans-serif;
-	font-size: 18 px;
-	font-weight: bold;
-	text-align: center;	
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 24px;
+	font-weight: bold;	
+	text-align: left;
 }
 
 /* Footer  */
 
 footer {
-	width: 100%;
+	margin: 2em auto;
+	width: 90%;
 	min-height: 2em;
+}
+
+footer p {
+	text-align: center;
 }
