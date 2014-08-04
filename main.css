@@ -39,6 +39,7 @@ header ul {
 
 header li {
 	display: inline-block;
+	width: 78px;
 	padding: .5em;
 }
 /*  Main  */
