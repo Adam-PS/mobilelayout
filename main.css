@@ -4,13 +4,13 @@ body {
 	height: 100%;
 	vertical-align: top;
 	text-align: center;
+	color: #333;
 	background-color: #fff;
 }
 
 p {
 	font-family: Georgia, Times, serif;
 	font-size: 16px;
-	color: #333;
 	text-align: left;
 
 }
@@ -33,7 +33,7 @@ header {
 }
 
 .logo-style0{
-    fill:	#333;
+    	fill:	#333;
 }
 
 .logo-style1{
