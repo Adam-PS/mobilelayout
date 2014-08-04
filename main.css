@@ -24,7 +24,6 @@ a {
 /*  Header  */
 header {
 	margin: 2em auto;
-	width: 90%;
 	max-width: 640px;
 }
 
@@ -45,8 +44,7 @@ header li {
 /*  Main  */
 main {
 	margin: 2em auto;
-	width: 90%;
-	max-width: 640px;
+	max-width: 480px;
 	font-size: 0;
 }
 
@@ -61,7 +59,6 @@ h1 {
 
 footer {
 	margin: 2em auto;
-	width: 90%;
 	min-height: 2em;
 }
 
