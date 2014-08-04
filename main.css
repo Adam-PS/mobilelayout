@@ -32,6 +32,14 @@ header {
 	max-height: 100px;
 }
 
+.logo-style0{
+    fill:	#333;
+}
+
+.logo-style1{
+	fill:	#FFF;
+}
+
 header ul {
 	font-size: 18px;
 	padding: 0; 	
