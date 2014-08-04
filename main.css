@@ -66,3 +66,21 @@ footer {
 footer p {
 	text-align: center;
 }
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media screen and (min-width: 640px) {
+	header, main { 
+		display: inline-block;
+		margin: 32px 10px;
+	}
+
+	header li {
+		display: block;
+	}
+	
+	main {
+		max-width: 640px;
+		vertical-align: top;
+	}
+}
