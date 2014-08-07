@@ -1,0 +1,94 @@
+/*  Base  */
+body {
+	margin: 0;
+	height: 100%;
+	vertical-align: top;
+	text-align: center;
+	color: #333;
+	background-color: #fff;
+}
+
+p {
+	font-family: Georgia, Times, serif;
+	font-size: 16px;
+	text-align: left;
+
+}
+
+a {
+	font-family: Verdana, Tahoma, sans-serif;
+	color: #f30;
+	text-decoration: none;
+}
+
+/*  Header  */
+header {
+	margin: 2em auto;
+	max-width: 640px;
+}
+
+.logo {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.logo-style0{
+    	fill:	#333;
+}
+
+.logo-style1{
+	fill:	#FFF;
+}
+
+header ul {
+	font-size: 18px;
+	padding: 0; 	
+}	
+
+header li {
+	display: inline-block;
+	width: 78px;
+	padding: .5em;
+}
+/*  Main  */
+main {
+	margin: 2em auto;
+	max-width: 480px;
+	font-size: 0;
+}
+
+h1 {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 24px;
+	font-weight: bold;	
+	text-align: left;
+}
+
+/* Footer  */
+
+footer {
+	margin: 2em auto;
+	min-height: 2em;
+}
+
+footer p {
+	text-align: center;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media screen and (min-width: 640px) {
+	header, main { 
+		display: inline-block;
+		margin: 32px 10px;
+	}
+
+	header li {
+		display: block;
+	}
+	
+	main {
+		max-width: 640px;
+		vertical-align: top;
+	}
+}
