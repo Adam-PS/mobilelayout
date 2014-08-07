@@ -2,7 +2,7 @@
 title: Adam Phillips-Silver | Technologist
 email: labonvie07@gmail.com
 description: "A site about life, web development, and technology."
-baseurl: ""
+baseurl: "/mobilelayout"
 
 # Build settings
 markdown: kramdown
